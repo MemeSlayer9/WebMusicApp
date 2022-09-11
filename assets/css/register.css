@@ -1,0 +1,138 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#background{
+	background: url(../img/Phone-background.jpg);
+	background-size: cover;
+	background-position: center;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#loginContainer *{
+	color: #fff;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+
+}
+#loginContainer{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    gray;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    gray;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    gray;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    gray;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    gray;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    gray;
+}
+
+#inputContainer{
+	width: 400px;
+	padding: 45px;
+	float: left;
+	border-right: 1px solid #999;
+}
+#inputContainer h1{
+	text-align: center;
+}
+#inputContainer label{
+	color: #fff;
+	font-size: 13px;
+	margin-top: 15px;	
+	display: block;
+}
+#inputContainer button{
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 250px;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 20px auto;
+	height: 41px;
+	width: 100%;
+}
+
+#inputContainer button:hover{
+	cursor: pointer;
+}
+#inputContainer input{
+	display: block;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid #fff;
+	height: 27px;
+	line-height: 27px;
+	width: 100%;
+	color: #fff;
+}
+#inputContainer .errorMessage {
+    color: #07d159;
+    font-size: 12px;
+    display: block;
+}
+.hasAccountText{
+	text-align: center;
+}
+.hasAccountText span{
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#registerForm{
+display: none;
+}
+
+#loginText{
+	display: table-cell;
+	padding: 45px;
+}
+
+#loginText h1{
+	color: #07d159;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#loginText h2{
+	margin: 35px 0;
+}
+
+#loginText ul{
+	padding: 0;
+}
+#loginText li{
+	font-size: 20px;
+	list-style-type: none;
+	padding: 5px 30px; 
+	background: url(../img/icons/checkmark.png) no-repeat 0 0;
+}
+.errorMessage {
+    color: #07d159;
+    font-size: 12px;
+    display: block;
+ }
